@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  height: 100vh; /* altura da div pai */
+}
+
+#root {
+  background-color: rgba(78, 128, 227, 0.436);
+  border-radius: 10px;
+  
+
+  align-items: center;
+}
